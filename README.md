@@ -28,7 +28,7 @@ Replace the OpenAI key and Google Search API key with your own ones in the code 
 at [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wwangbw_connect_ust_hk/EqhEyfccW45HtyehVTDO_cgB9A2X4TQQKdeVnjqK1wMgng).-->
 
 ## 3. 
-1. zero_shot.py
+1. llama_eval.py
 This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to the link https://github.com/hiyouga/LLaMA-Factory.
 
 2. Data_Processing
