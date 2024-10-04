@@ -41,12 +41,10 @@ Please use the bibtex below for citing our paper:
   title        = {{GProofT:} A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
 },
   year         = {2024},
-  booktitle    = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, {ACL} 2024}
+  booktitle    = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
 }
 ```
 
 ## 5. Acknowledgement
 
-The authors of this paper were supported by the NSFC Fund (U20B2053) from the NSFC of China, the RIF (R6020-19 and
-R6021-20), and the GRF (16211520 and 16205322) from RGC of Hong Kong. We also thank the support from the UGC
-Research Matching Grants (RMGS20EG01-D, RMGS20CR11, RMGS20CR12, RMGS20EG19, RMGS20EG21, RMGS23CR05, RMGS23EG08).
+The authors of this paper were supported by the NSFC Fund (U20B2053) from the NSFC of China, the RIF (R6020-19 and R6021-20), and the GRF (16211520 and 16205322) from RGC of Hong Kong. We also thank the support from the UGC Research Matching Grants (RMGS20EG01-D, RMGS20CR11, RMGS20CR12, RMGS20EG19, RMGS20EG21, RMGS23CR05, RMGS23EG08). 
