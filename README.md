@@ -24,37 +24,24 @@ google-auth==2.31.0
 The code for implementing GProofT framework is [HERE](https://github.com/HKUST-KnowComp/GProofT/GProofT.py).
 
 Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
-<!--can be downloaded
-at [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wwangbw_connect_ust_hk/EqhEyfccW45HtyehVTDO_cgB9A2X4TQQKdeVnjqK1wMgng).-->
 
 ## 3. 
 1. llama_eval.py
+
 This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to the link https://github.com/hiyouga/LLaMA-Factory.
 
 2. Data_Processing
+
 This directory contains code for data processing. It includes scripts to combine the verdict with retrieved evidence and restructure the data to fit a fine-tuning framework. You may use these scripts as needed if they are helpful for your specific tasks.
 
-## 4. 
+## 4.
 GPT_eval.py is used to call OpenAI model using your own API key. Replace the ``azure_endpoint``,``api_version``,``api_key`` to get response from ChatGPT. Replace ``input`` to use your own dataset. 
 
 ## 5. Citing this work
 
 Please use the bibtex below for citing our paper:
 
-<```bibtex
-@inproceedings{GProofT,
-        author = {Jiayu Liu and
-                  Junhao Tang and
-                  Hanwen Wang and
-                  Baixuan Xu and
-                  Haochen Shi and
-                  Weiqi Wang and
-                  Yangqiu Song},
-        title = {{GProofT:} A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
-},
-        year = {2024},
-        booktitle = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
-}```>
+
 
 ## 6. Acknowledgement
 
