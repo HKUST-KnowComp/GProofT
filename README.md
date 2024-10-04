@@ -30,21 +30,16 @@ For zero-shot Commonsense QA task, please refer to [this repository](https://git
 Please use the bibtex below for citing our paper:
 
 ```bibtex
-@inproceedings{CANDLE,
-  author       = {Weiqi Wang and
-                  Tianqing Fang and
-                  Chunyang Li and
-                  Haochen Shi and
-                  Wenxuan Ding and
+@inproceedings{GProofT,
+  author       = {Jiayu Liu and
+                  Junhao Tang and
+                  Hanwen Wang and
                   Baixuan Xu and
-                  Zhaowei Wang and
-                  Jiaxin Bai and
-                  Xin Liu and
-                  Jiayang Cheng and
-                  Chunkit Chan and
+                  Haochen Shi and
+                  Weiqi Wang and
                   Yangqiu Song},
-  title        = {{CANDLE:} Iterative Conceptualization and Instantiation Distillation
-                  from Large Language Models for Commonsense Reasoning},
+  title        = {{GProofT:} A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
+},
   year         = {2024},
   booktitle    = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, {ACL} 2024}
 }
