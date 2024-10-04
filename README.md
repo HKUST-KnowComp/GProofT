@@ -1,6 +1,6 @@
 # GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
 
-This is the official code and data repository for the [FEVER 2024: The Seventh Workshop on Fact Extraction and VERification - co-located with EMNLP 2024](https://fever.ai/) paper:
+This is the official code and data repository for the [EMNLP 2024 Workshop FEVER AVeriTeC Shared Task](https://fever.ai/) paper:
 [GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction](https://arxiv.org/abs/2401.07286).
 **[the url of the paper needs to be updated].**
 
