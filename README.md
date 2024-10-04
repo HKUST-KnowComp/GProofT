@@ -40,7 +40,7 @@ This directory contains code for data processing. It includes scripts to combine
 
 Please use the bibtex below for citing our paper:
 
-```bibtex
+<```bibtex
 @inproceedings{GProofT,
         author = {Jiayu Liu and
                   Junhao Tang and
@@ -54,7 +54,7 @@ Please use the bibtex below for citing our paper:
         year = {2024},
         booktitle = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
 }
-```
+```>
 
 ## 6. Acknowledgement
 
