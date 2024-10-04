@@ -6,11 +6,17 @@ This is the official code and data repository for the [FEVER 2024: The Seventh W
 
 ![Overview](demo/overview.png "An overview of the CANDLE framework")
 
-## 1. Download Dataset/Model Checkpoints
+## 1. Requirements
 
-Distilled conceptualizations and instantiations, based on the ATOMIC and AbstractATOMIC datasets, and model checkpoints
-for all downstream tasks, can be downloaded
-at [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wwangbw_connect_ust_hk/EqhEyfccW45HtyehVTDO_cgB9A2X4TQQKdeVnjqK1wMgng).
+
+
+## 2. GProofT Framework
+
+The code for implementing GProofT framework is [ path needed to be updated].
+
+Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
+**can be downloaded
+at [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wwangbw_connect_ust_hk/EqhEyfccW45HtyehVTDO_cgB9A2X4TQQKdeVnjqK1wMgng).**
 
 ## 2. Distilling with CANDLE
 
