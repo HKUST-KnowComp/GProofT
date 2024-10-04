@@ -1,7 +1,8 @@
 # GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
 
 This is the official code and data repository for the [EMNLP2024](https://fever.ai/) (The Seventh FEVER Workshop) paper:
-[CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning](https://arxiv.org/abs/2401.07286).
+[GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction](https://arxiv.org/abs/2401.07286).
+[the url of the paper needs to be updated]
 
 ![Overview](demo/overview.png "An overview of the CANDLE framework")
 
