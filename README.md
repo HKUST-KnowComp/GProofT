@@ -37,17 +37,17 @@ Please use the bibtex below for citing our paper:
 
 ```bibtex
 @inproceedings{GProofT,
-  author       = {Jiayu Liu and
+        author = {Jiayu Liu and
                   Junhao Tang and
                   Hanwen Wang and
                   Baixuan Xu and
                   Haochen Shi and
                   Weiqi Wang and
                   Yangqiu Song},
-  title        = {{GProofT:} A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
+        title = {{GProofT:} A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction
 },
-  year         = {2024},
-  booktitle    = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
+        year = {2024},
+        booktitle = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
 }
 ```
 
