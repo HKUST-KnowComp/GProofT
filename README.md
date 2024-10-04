@@ -4,7 +4,7 @@ This is the official code and data repository for the [EMNLP 2024 Workshop FEVER
 [GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction](https://arxiv.org/abs/2401.07286).
 **[the url of the paper needs to be updated].**
 
-![Overview](**The path needs to be updated**)
+![Overview](overview.png)
 
 ## 1. Requirements
 
@@ -21,7 +21,7 @@ google-auth==2.31.0
 
 ## 2. GProofT Framework
 
-The code for implementing GProofT framework is **[path needed to be updated]**.
+The code for implementing GProofT framework is [HERE](https://github.com/HKUST-KnowComp/GProofT/GProofT.py).
 
 Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
 <!--can be downloaded
@@ -35,6 +35,7 @@ This script is used to call large language models like LLaMA3 and LLaMA3-Instruc
 This directory contains code for data processing. It includes scripts to combine the verdict with retrieved evidence and restructure the data to fit a fine-tuning framework. You may use these scripts as needed if they are helpful for your specific tasks.
 
 ## 4. 
+GPT_eval.py is used to call OpenAI model using your own API key. Replace the ``azure_endpoint``,``api_version``,``api_key`` to get response from ChatGPT. Replace ``input`` to use your own dataset. 
 
 ## 5. Citing this work
 
@@ -53,8 +54,7 @@ Please use the bibtex below for citing our paper:
 },
         year = {2024},
         booktitle = {The Seventh Workshop on Fact Extraction and VERification - AVeriTeC Shared Task, {FEVER} 2024}
-}
-```>
+}```>
 
 ## 6. Acknowledgement
 
