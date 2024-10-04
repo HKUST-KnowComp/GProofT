@@ -14,7 +14,7 @@ Requirements:
 ```
 spaCy==3.7.5
 pandas==2.2.2
-openai==1.35.13
+openai
 transformers==4.20.1
 google-auth==2.31.0
 ```
