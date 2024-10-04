@@ -2,9 +2,9 @@
 
 This is the official code and data repository for the [FEVER 2024: The Seventh Workshop on Fact Extraction and VERification - co-located with EMNLP 2024](https://fever.ai/) paper:
 [GProofT: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction](https://arxiv.org/abs/2401.07286).
-[the url of the paper needs to be updated]
+**[the url of the paper needs to be updated].**
 
-![Overview](demo/overview.png "An overview of the CANDLE framework")
+![Overview](**The path needs to be updated**)
 
 ## 1. Requirements
 
@@ -21,24 +21,15 @@ google-auth==2.31.0
 
 ## 2. GProofT Framework
 
-The code for implementing GProofT framework is [ path needed to be updated].
+The code for implementing GProofT framework is **[path needed to be updated]**.
 
 Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
 <!--can be downloaded
 at [this link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wwangbw_connect_ust_hk/EqhEyfccW45HtyehVTDO_cgB9A2X4TQQKdeVnjqK1wMgng).-->
 
-## 3. Distilling with CANDLE
+## 3. 
 
-The code for distilling conceptualizations with ChatGPT is `CANDLE_Distillation/ChatGPT_conceptualization.py`, and the
-code for distilling instantiations with GPT-3 is `CANDLE_Distillation/LLAMA2_instantiation.py`.
-
-Replace the OpenAI key and the HuggingFace Hub key with your own ones in the code to execute the distillation process.
-
-## 4. Training Downstream Models
-For the CSKB Conceptualization and the COMET tasks, please refer to [this repository](https://github.com/HKUST-KnowComp/CAT).
-To train LLAMA2 for the COMET task, we use the code from the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
-
-For zero-shot Commonsense QA task, please refer to [this repository](https://github.com/HKUST-KnowComp/CAR).
+## 4. 
 
 ## 5. Citing this work
 
