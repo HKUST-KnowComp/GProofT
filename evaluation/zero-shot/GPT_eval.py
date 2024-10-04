@@ -31,8 +31,8 @@ def dispatch_openai_requests(
         time.sleep(1)
     return responses
 #Read the dataset
-input="dev.json"
-df = pd.read_json(input)#filename here
+input="$DATASET_PATH/FILE"#filename here
+df = pd.read_json(input)
 claim=df["claim"]
 qa=df["questions"]
 
