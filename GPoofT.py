@@ -206,9 +206,9 @@ for num in range(index_start,index_end,1):
         question_dic['question'] = question_text
         claim_dic['evidence'].append(question_dic)
     
-    SERVICE_ACCOUNT_FILE = SERVICE_ACCOUNT_FILE_LIST[num%(len(SERVICE_ACCOUNT_FILE_LIST))]
-    SEARCH_ENGINE_ID = SEARCH_ENGINE_ID_LIST[num%(len(SEARCH_ENGINE_ID_LIST))]
-    API_KEY = API_KEY_LIST[num%(len(API_KEY_LIST))]
+    SERVICE_ACCOUNT_FILE = SERVICE_ACCOUNT_FILE_LIST[SERVICE_ACCOUNT_FILE_LIST]
+    SEARCH_ENGINE_ID = SEARCH_ENGINE_ID_LIST[SEARCH_ENGINE_ID_LIST]
+    API_KEY = API_KEY_LIST[API_KEY_LIST]
     
     SCOPES = SEARCH_SCOPE
     credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
