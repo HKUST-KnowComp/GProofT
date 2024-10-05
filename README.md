@@ -26,11 +26,11 @@ The code for implementing GProofT framework is [HERE](https://github.com/HKUST-K
 Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
 
 ## 3. 
-1. llama_eval.py
+### 1. llama_eval.py
 
 This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to the link https://github.com/hiyouga/LLaMA-Factory.
 
-2. Data_Processing
+### 2. Data_Processing
 
 This directory contains code for data processing. It includes scripts to combine the verdict with retrieved evidence and restructure the data to fit a fine-tuning framework. You may use these scripts as needed if they are helpful for your specific tasks.
 
