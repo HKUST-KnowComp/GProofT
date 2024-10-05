@@ -41,7 +41,7 @@ This directory contains code for data processing. It includes scripts to combine
 
 ## 5. Citing this work
 
-Please use the bibtex below for citing our paper:[to be updated]
+Please use the bibtex below for citing our paper: [to be updated]
 
 
 
