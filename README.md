@@ -25,17 +25,19 @@ The code for implementing GProofT framework is [HERE](https://github.com/HKUST-K
 
 Replace the following variables with your own ones in the code to execute the fact-checking process:``LOAD_DATA_PATH``, ``OUTPUT_FILE_PATH``, ``AZURE_ENDPOINT``, ``API_VERSION``, ``AZURE_API_KEY``, ``SERVICE_ACCOUNT_FILE``, ``SEARCH_ENGINE_ID``, ``API_KEY``, where ``AZURE_API_KEY`` is the API key to use OpenAI Azure ChatGPT, and ``API_KEY`` is the API key to use Google Search API. The official documents is [HERE](https://developers.google.com/custom-search/v1/overview).
 
-## 3. 
+## 3. Verdict Prediction
 ### 1. llama_eval.py
 
 This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to [this repository](https://github.com/hiyouga/LLaMA-Factory).
 
-### 2. Data_Processing
+### 2. GPT_eval.py
+GPT_eval.py is used to call OpenAI model using your own API key. Replace the ``azure_endpoint``,``api_version``,``api_key`` to get response from ChatGPT. Replace ``input`` to use your own dataset. 
+
+### 3. Data_Processing
 
 This directory contains code for data processing. It includes scripts to combine the verdict with retrieved evidence and restructure the data to fit a fine-tuning framework. You may use these scripts as needed if they are helpful for your specific tasks.
 
-## 4.
-GPT_eval.py is used to call OpenAI model using your own API key. Replace the ``azure_endpoint``,``api_version``,``api_key`` to get response from ChatGPT. Replace ``input`` to use your own dataset. 
+
 
 ## 5. Citing this work
 
