@@ -14,7 +14,7 @@ OUTPUT_FILE_PATH = "OUTPUT_PATH"
 
 AZURE_EDNPOINT = "YOUR_ENDPOINT"
 API_VERSION = "YOUR_API_VERSION"
-AZURE_API_KEY_ONE = "YOUR_API_KEY"
+AZURE_API_KEY = "YOUR_API_KEY"
 GPT_VERSION = "gpt-35-turbo"
 GENERAL_INSTRUCTION = f'''You are a helpful assistant.'''
 
@@ -23,9 +23,9 @@ SPLIT_MODEL_NAME = "valhalla/t5-base-qg-hl"
 
 SEARCH_SCOPE = ['https://www.googleapis.com/auth/cse']
 
-SERVICE_ACCOUNT_FILE_LIST = "YOUR_SERVICE_ACCOUNT"
-SEARCH_ENGINE_ID_LIST = "YOUR_SEARCH_ENGINE"
-API_KEY_LIST = "YOUR_API_KEY"
+SERVICE_ACCOUNT_FILE = "YOUR_SERVICE_ACCOUNT_PATH"
+SEARCH_ENGINE_ID = "YOUR_SEARCH_ENGINE"
+API_KEY = "YOUR_API_KEY"
 
 search_empty = 0
 search_empty_list = []  
@@ -37,6 +37,8 @@ connection_loss = 0
 prompt_violence = 0
 Unexpected = 0
 request_Google_API = 0
+# In the workshop, we load data from json files
+# This is the starting and ending index that the user would like to process
 index_start = 0
 index_end = 1
 all_missions = index_end - index_start
@@ -51,7 +53,7 @@ def get_response(message, instruction, retry_attempt):
         client = AzureOpenAI(
             azure_endpoint = AZURE_EDNPOINT,
             api_version = API_VERSION,
-            api_key = AZURE_API_KEY_ONE
+            api_key = AZURE_API_KEY
         )
         response = client.chat.completions.create(
             model = GPT_VERSION,
@@ -206,10 +208,6 @@ for num in range(index_start,index_end,1):
         question_dic['question'] = question_text
         claim_dic['evidence'].append(question_dic)
     
-    SERVICE_ACCOUNT_FILE = SERVICE_ACCOUNT_FILE_LIST[SERVICE_ACCOUNT_FILE_LIST]
-    SEARCH_ENGINE_ID = SEARCH_ENGINE_ID_LIST[SEARCH_ENGINE_ID_LIST]
-    API_KEY = API_KEY_LIST[API_KEY_LIST]
-    
     SCOPES = SEARCH_SCOPE
     credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
     authed_session = AuthorizedSession(credentials)
@@ -265,7 +263,7 @@ for num in range(index_start,index_end,1):
         answers.append(answer_dic)
         question_dic['answers'] = answers
     output.append(claim_dic)
-    #PUT YOUR PATH HERE
+    #PUT YOUR OUTPUT FILE PATH HERE
     output_file_path = f"<YOUR_PATH>/{num}.json"
     with open(output_file_path, "w", encoding='utf-8') as json_file:
         json.dump(output, json_file, ensure_ascii=False, indent=4)
