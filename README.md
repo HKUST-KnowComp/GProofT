@@ -28,7 +28,7 @@ Replace the following variables with your own ones in the code to execute the fa
 ## 3. 
 ### 1. llama_eval.py
 
-This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to the link https://github.com/hiyouga/LLaMA-Factory.
+This script is used to call large language models like LLaMA3 and LLaMA3-Instruct from Hugging Face to run zero_shot experiment and generate verdicts. For instructions on fine-tuning the model, you can refer to [this repository](https://github.com/hiyouga/LLaMA-Factory).
 
 ### 2. Data_Processing
 
