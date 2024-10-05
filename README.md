@@ -23,7 +23,7 @@ google-auth==2.31.0
 
 The code for implementing GProofT framework is [HERE](https://github.com/HKUST-KnowComp/GProofT/blob/main/GPoofT.py).
 
-Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
+Replace the following variables with your own ones in the code to execute the fact-checking process:``LOAD_DATA_PATH``, ``OUTPUT_FILE_PATH``, ``AZURE_ENDPOINT``, ``API_VERSION``, ``AZURE_API_KEY``, ``SERVICE_ACCOUNT_FILE``, ``SEARCH_ENGINE_ID``, ``API_KEY``, where ``AZURE_API_KEY`` is the API key to use OpenAI Azure ChatGPT, and ``API_KEY`` is the API key to use Google Search API. The official documents is [HERE](https://developers.google.com/custom-search/v1/overview).
 
 ## 3. 
 ### 1. llama_eval.py
