@@ -21,7 +21,7 @@ google-auth==2.31.0
 
 ## 2. GProofT Framework
 
-The code for implementing GProofT framework is [HERE](https://github.com/HKUST-KnowComp/GProofT/GProofT.py).
+The code for implementing GProofT framework is [HERE](https://github.com/HKUST-KnowComp/GProofT/blob/main/GPoofT.py).
 
 Replace the OpenAI key and Google Search API key with your own ones in the code to execute the fact-checking process.
 
