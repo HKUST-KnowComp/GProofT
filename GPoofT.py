@@ -12,7 +12,7 @@ from google.auth.transport.requests import AuthorizedSession
 LOAD_DATA_PATH = "INPUT_PATH"
 OUTPUT_FILE_PATH = "OUTPUT_PATH"
 
-AZURE_EDNPOINT = "YOUR_ENDPOINT"
+AZURE_ENDPOINT = "YOUR_ENDPOINT"
 API_VERSION = "YOUR_API_VERSION"
 AZURE_API_KEY = "YOUR_API_KEY"
 GPT_VERSION = "gpt-35-turbo"
@@ -51,7 +51,7 @@ def get_response(message, instruction, retry_attempt):
     max_retry_attempt = 5
     try:
         client = AzureOpenAI(
-            azure_endpoint = AZURE_EDNPOINT,
+            azure_endpoint = AZURE_ENDPOINT,
             api_version = API_VERSION,
             api_key = AZURE_API_KEY
         )
