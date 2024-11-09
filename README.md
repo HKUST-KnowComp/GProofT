@@ -40,8 +40,39 @@ This directory contains code for data processing. It includes scripts to combine
 
 
 ## 5. Citing this work
-
-Please use the bibtex below for citing our paper: [to be updated]
+Please use the bibtex below for citing our paper:
+```
+@inproceedings{liu-etal-2024-gprooft,
+    title = "{GP}roof{T}: A Multi-dimension Multi-round Fact Checking Framework Based on Claim Fact Extraction",
+    author = "Liu, Jiayu  and
+      Tang, Junhao  and
+      Wang, Hanwen  and
+      Xu, Baixuan  and
+      Shi, Haochen  and
+      Wang, Weiqi  and
+      Song, Yangqiu",
+    editor = "Schlichtkrull, Michael  and
+      Chen, Yulong  and
+      Whitehouse, Chenxi  and
+      Deng, Zhenyun  and
+      Akhtar, Mubashara  and
+      Aly, Rami  and
+      Guo, Zhijiang  and
+      Christodoulopoulos, Christos  and
+      Cocarascu, Oana  and
+      Mittal, Arpit  and
+      Thorne, James  and
+      Vlachos, Andreas",
+    booktitle = "Proceedings of the Seventh Fact Extraction and VERification Workshop (FEVER)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.fever-1.14",
+    pages = "118--129",
+    abstract = "In the information era, the vast proliferation of online content poses significant challenges, particularly concerning the trustworthiness of these digital statements, which can have profound societal implications. Although it is possible to manually annotate and verify the authenticity of such content, the sheer volume and rapid pace of information generation render this approach impractical, both in terms of time and cost. Therefore, it is imperative to develop automated systems capable of validating online claims, ensuring that users can use the wealth of information available on the Internet effectively and reliably. Using primarily ChatGPT and the Google search API, GProofT fact checking framework generates question-answer pairs to systematically extract and verify the facts within claims. Based on the outcomes of these QA pairs, claims are subsequently labeled as Supported, Conflicted Evidence/Cherry-Picking, or Refuted. Shown by extensive experiments, GProofT Retrieval generally performs effectively in fact-checking and makes a substantial contribution to the task. Our code is released on https://github.com/HKUST-KnowComp/GProofT.",
+}
+```
 
 
 
